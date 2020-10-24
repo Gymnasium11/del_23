@@ -14,8 +14,10 @@ def mult(x,y):
 #Умножение
     return x*y
 
-def fact(x):
-    return x*fact(x-1)
+def fact(n):
+    if n == 0: 
+        return 1
+    return n*factorial(n-1)
     
     
 def main():
