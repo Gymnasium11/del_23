@@ -15,13 +15,13 @@ def add(x, y):
 
 
 def mult(x,y):
-#Умножение
+#Функция умножения
     return x*y
 
-def fact(n):
-    if n == 0: 
-        return 1
-    return n*factorial(n-1)
+
+def fact(x):
+#Функция факториала
+    return x*fact(x-1)
     
     
 def main():
