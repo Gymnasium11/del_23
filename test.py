@@ -9,6 +9,10 @@ def dev(x, y):
     return x/y
 
 
+def printf(F):
+    F = input()
+    return F
+
 def add(x, y):
     fu = lambda z: z+5
     print('hello')
