@@ -4,6 +4,8 @@ def ras(x, y):
 
 def dev(x, y):
     return x / y
+    '''Эта функция делит значение перменной X на значение переменной Y'''
+    return x/y
 
 
 def add(x, y):
