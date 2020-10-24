@@ -18,6 +18,8 @@ def mult(x,y):
 #Функция умножения
     return x*y
 
+def maine_funk():
+    print('wunderbar')
 
 def fact(x):
 #Функция факториала
