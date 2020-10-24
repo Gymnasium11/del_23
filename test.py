@@ -11,10 +11,12 @@ def add(x, y):
 
 
 def mult(x,y):
-#Умножение
+#Функция умножения
     return x*y
 
+
 def fact(x):
+#Функция факториала
     return x*fact(x-1)
     
     
