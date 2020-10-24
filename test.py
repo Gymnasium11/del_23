@@ -21,7 +21,9 @@ def mult(x,y):
 
 def fact(x):
 #Функция факториала
-    return x*fact(x-1)
+    if x==0:
+        return 1
+    return x * fact(x-1)
     
     
 def main():
