@@ -17,5 +17,12 @@ def mult(x, y):
     return x * y
 
 
+def F(n):
+    """"simple recurcia"""
+    if n == 1:
+        return 1
+    return n + F(n-1)
+
+
 def main():
     pass
