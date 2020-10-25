@@ -13,7 +13,7 @@ def add(x, y):
 def mult(x,y):
     return x*y
 
-<<<<<<< HEAD
+
 def maine_funk():
     print('wunderbar')
 
@@ -23,9 +23,7 @@ def fact(x):
     if x==0:
         return 1
     return x * fact(x-1)
-    
-=======
->>>>>>> 565e0e55f6e809c31bd392e30d0209e88aa96e57
+
     
 def main():
     pass
