@@ -39,4 +39,5 @@ def F(n):
 
 
 def main():
+    print("Hello,world!")
     pass
