@@ -24,5 +24,13 @@ def fact(x):
 
 
 
+
+def fact(x):
+#Функция факториала
+    if x==0:
+        return 1
+    return x * fact(x-1)
+
+
 def main():
     pass
