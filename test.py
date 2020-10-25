@@ -9,6 +9,12 @@ def dev(x, y):
     return x/y
 
 
+def F(n):
+    if n == 1:
+        return 1
+    return n + F(n-1)
+
+
 def add(x, y):
     fu = lambda z: z+5
     print('hello')
