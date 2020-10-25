@@ -24,7 +24,8 @@ def maine_funk():
 def fact(x):
 #Функция факториала
     return x*fact(x-1)
-    
-    
+
+
+
 def main():
     pass
