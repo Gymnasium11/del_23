@@ -26,5 +26,12 @@ def fact(x):
     return x * fact(x-1)
 
 
+def F(n):
+    """"simple recurcia"""
+    if n == 1:
+        return 1
+    return n + F(n-1)
+
+
 def main():
     pass
