@@ -39,4 +39,4 @@ def F(n):
 
 
 def main():
-    pass
+    print("ha-ha-ha!!!")
