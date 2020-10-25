@@ -6,24 +6,14 @@ def dev(x, y):
     return x/y
 
 
-def printf(F):
-    F = input()
-    return F
-
-def F(n):
-    if n == 1:
-        return 1
-    return n + F(n-1)
-
-
 def add(x, y):
     return x + y
 
 
 def mult(x,y):
-#Функция умножения
     return x*y
 
+<<<<<<< HEAD
 def maine_funk():
     print('wunderbar')
 
@@ -34,6 +24,8 @@ def fact(x):
         return 1
     return x * fact(x-1)
     
+=======
+>>>>>>> 565e0e55f6e809c31bd392e30d0209e88aa96e57
     
 def main():
     pass
