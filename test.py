@@ -6,32 +6,13 @@ def dev(x, y):
     return x/y
 
 
-def printf(F):
-    F = input()
-    return F
-
-def F(n):
-    if n == 1:
-        return 1
-    return n + F(n-1)
-
-
 def add(x, y):
     return x + y
 
 
 def mult(x,y):
-#Функция умножения
     return x*y
 
-def maine_funk():
-    print('wunderbar')
-
-
-def fact(x):
-#Функция факториала
-    return x*fact(x-1)
-    
     
 def main():
     pass
