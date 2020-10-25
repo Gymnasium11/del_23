@@ -10,6 +10,12 @@ def printf(F):
     F = input()
     return F
 
+def F(n):
+    if n == 1:
+        return 1
+    return n + F(n-1)
+
+
 def add(x, y):
     return x + y
 
@@ -17,6 +23,9 @@ def add(x, y):
 def mult(x,y):
 #Функция умножения
     return x*y
+
+def maine_funk():
+    print('wunderbar')
 
 
 def fact(x):
