@@ -13,6 +13,7 @@ def add(x, y):
 
 
 def mult(x, y):
+#Функция умножения
     return x * y
 
 
