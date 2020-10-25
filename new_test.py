@@ -9,7 +9,9 @@ def dev(x, y):
 
 
 def add(x, y):
-    return x + y
+    """Not add function"""
+    z = lambda p: p**p
+    return z(4)
 
 
 def mult(x, y):
