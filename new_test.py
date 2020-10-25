@@ -22,4 +22,4 @@ def mult(x, y):
 
 
 def main():
-    pass
+    print('dada')
