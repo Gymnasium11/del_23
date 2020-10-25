@@ -8,6 +8,11 @@ def dev(x, y):
     return x / y
 
 
+def printf(string):
+    string = input()
+    return string 
+
+
 def add(x, y):
     """Not add function"""
     z = lambda p: p**p
